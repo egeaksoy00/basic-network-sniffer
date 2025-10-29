@@ -1,6 +1,25 @@
-venv/
+# --- Python-related ---
 __pycache__/
-logs/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+
+# --- Virtual environments ---
+venv/
+env/
+
+# --- macOS junk ---
 .DS_Store
 
+# --- IDE settings ---
+.vscode/
+.idea/
+
+# --- Logs & outputs ---
+samples/*
+!samples/sample_capture.json
+
+# --- Other temporary files ---
+*.log
+*.tmp
+*.bak
